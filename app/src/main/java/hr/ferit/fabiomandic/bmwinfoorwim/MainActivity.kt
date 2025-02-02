@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BMWinfoTheme {
                 val sharedViewModel: ViewModel = viewModel()
-                NavigationController(sharedViewModel) // Prosljeđujemo ViewModel
+                NavigationController(sharedViewModel)
             }
         }
     }

@@ -52,7 +52,7 @@ fun ModelsScreen(navController: NavHostController, viewModel: ViewModel) {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Button(
-                    onClick = { navController.navigate("main") }, // Vraća na MainScreen
+                    onClick = { navController.navigate("main") },
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF5C6BC0)),
                     shape = CircleShape
                 ) {

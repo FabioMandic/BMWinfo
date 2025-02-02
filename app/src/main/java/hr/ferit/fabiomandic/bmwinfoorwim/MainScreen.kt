@@ -159,7 +159,7 @@ fun MainScreen(navController: NavHostController, viewModel: ViewModel) {
 
 
 
-                // Kategorije
+
                 Spacer(modifier = Modifier.height(16.dp))
                 LazyRow(
                     modifier = Modifier
